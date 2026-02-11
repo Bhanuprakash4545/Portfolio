@@ -11,13 +11,13 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Alex Developer - Full Stack Developer Portfolio',
+  title: 'Bhanu prakash Developer - Full Stack Developer Portfolio',
   description: 'Professional portfolio showcasing projects, skills, education, and experience in full-stack web development. Built with Next.js, React, and TypeScript.',
   generator: 'v0.app',
   keywords: ['developer', 'portfolio', 'full stack', 'react', 'nextjs', 'typescript', 'web development', 'frontend', 'backend'],
-  authors: [{ name: 'Alex Developer' }],
+  authors: [{ name: 'Bhanu Prakash Developer' }],
   openGraph: {
-    title: 'Alex Developer - Full Stack Developer',
+    title: 'Bhanu Prakash Developer - Full Stack Developer',
     description: 'Explore my work, projects, and expertise in modern web development',
     type: 'website',
   },
