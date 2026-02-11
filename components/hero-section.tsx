@@ -110,16 +110,17 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Right: Profile Photo */}
-        <div className="flex-1 flex justify-center mt-8 md:mt-0">
-          <div className="rounded-full p-1 bg-gradient-to-tr from-purple-500 via-pink-500 to-yellow-400">
-            <img
-              src="/profile.jpeg"
-              alt="Bandi Bhanu Prakash"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-background shadow-xl object-cover"
-            />
-          </div>
-        </div>
+        {/* Profile Photo */}
+<div className="flex-1 flex justify-center mt-8 md:mt-0">
+  <div className="rounded-full p-1 bg-primary"> {/* solid color border */}
+    <img
+      src="/profile.png"
+      alt="Bandi Bhanu Prakash"
+      className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-background shadow-xl object-cover"
+    />
+  </div>
+</div>
+
       </div>
     </section>
   )
